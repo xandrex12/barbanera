@@ -4290,7 +4290,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     position: absolute;
     left: 2vh;
     top: 0vh;
-    width: 22vh;
+    width: 10vh;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
