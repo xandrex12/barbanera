@@ -3356,7 +3356,7 @@ fieldset[disabled] .btn-warning.focus {
   border-color: #761c19;
 }
 .btn-danger:hover {
-  color: #fff;
+  color: #950000;
   background-color: #c9302c;
   border-color: #ac2925;
 }
@@ -4288,9 +4288,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand > img {
   display: block;
     position: absolute;
-    left: 2vh;
-    top: 0vh;
-    width: 10vh;
+    left: 4vh;
+    top: 1vh;
+    width: 16vh;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,

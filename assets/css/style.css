@@ -31,6 +31,30 @@
 */
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
+
+
+
+.lang-toggle {
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+      font-size: 0.9em;
+      color: #fff;
+      background: #c0392b;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-left: 15px;
+      transition: background 0.3s;
+    }
+    .lang-toggle:hover {
+      background: #e74c3c;
+      color: #e74c3c;
+    }
+    .lang-toggle i {
+      margin-right: 5px;
+    }
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -207,10 +231,7 @@ img {
   margin-bottom: 0px;
 }
 #mu-menu .navbar-default .navbar-nav li > a {
-  border-bottom: 2px solid transparent;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  margin-bottom: -1px;
+  
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
