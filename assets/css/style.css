@@ -32,8 +32,6 @@
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
 
-
-
 .lang-toggle {
       display: inline-flex;
       align-items: center;
@@ -48,8 +46,8 @@
       transition: background 0.3s;
     }
     .lang-toggle:hover {
-      background: #e74c3c;
-      color: #e74c3c;
+      background: #950000;
+      color: #fff;
     }
     .lang-toggle i {
       margin-right: 5px;
